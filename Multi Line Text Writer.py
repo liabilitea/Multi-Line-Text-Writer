@@ -8,5 +8,5 @@ with open("mylife.txt", "w") as output_file:
         #Write the input text into the file and append a new line character at the end
         output_file.write(new_line + "\n")
         #Ask user if they want to write more information
-
+        more_line = input("Are there more information you wish to write? Type 'y' if yes and 'n' if no: ")
 #Exit loop
